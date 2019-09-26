@@ -28,8 +28,8 @@ HelloworldPod description is nothing
   s.source           = { :git => 'https://github.com/Nishanth92t/HelloworldPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '11.0'
+   s.swift_version = '4.2'
   s.source_files = 'HelloworldPod/Classes/**/*'
   
   # s.resource_bundles = {
